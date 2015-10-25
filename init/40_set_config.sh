@@ -1,11 +1,8 @@
 #!/bin/bash
 
-if [ ! -f "/config/gameserver.ini" ]; then
-cp /defaults/gameserver.ini /config/gameserver.ini
-fi
+[[ ! -f /config/gameserver.ini ]] && cp /defaults/gameserver.ini /config/gameserver.ini
 
-if [ ! -L "/app/ogar/gameserver.ini" ]; then
-ln -s /config/gameserver.ini /app/ogar/gameserver.ini
-fi
+
+[[ ! -L "/app/ogar/gameserver.ini" ]] && ln -s /config/gameserver.ini /app/ogar/gameserver.ini
 
 chown -R abc:abc /config
