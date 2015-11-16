@@ -44,6 +44,6 @@ The gameserver.ini file in /config contains all the settings for the server.
 
 ## Versions
 
-+ **26.10.2015:** Initial Release. 
++ **16.11.2015:** Initial Release. 
 
 
