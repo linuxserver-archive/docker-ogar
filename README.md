@@ -2,7 +2,7 @@
 
 The [LinuxServer.io](https://www.linuxserver.io/) team brings you another quality container release featuring easy user mapping and community support. Be sure to checkout our [forums](https://forum.linuxserver.io/index.php) or for real-time support our [IRC](https://www.linuxserver.io/index.php/irc/) on freenode at `#linuxserver.io`.
 
-# linuxserver/ogar
+# lsiodev/ogar
 Ogar is a free, open-source Agar.io server implementation, licensed under the Apache 2.0 license. [Ogar](http://ogarproject.com/)
 
 
@@ -10,7 +10,7 @@ Ogar is a free, open-source Agar.io server implementation, licensed under the Ap
 ## Usage
 
 ```
-docker create --name=ogar -v /etc/localtime:/etc/localtime:ro -v <path to data>:/config -e PGID=<gid> -e PUID=<uid>  -p 88:88 -p 443:443 linuxserver/ogar
+docker create --name=ogar -v /etc/localtime:/etc/localtime:ro -v <path to data>:/config -e PGID=<gid> -e PUID=<uid>  -p 88:88 -p 443:443 lsiodev/ogar
 ```
 
 **Parameters**
